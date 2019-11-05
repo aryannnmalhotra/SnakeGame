@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
     {
         //if (Input.GetMouseButtonDown(0))
         {
+            Player.isPlayerAlive = true;
             SceneManager.LoadScene("MainMenu");
         }
     }

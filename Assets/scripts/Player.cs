@@ -103,6 +103,9 @@ public class Player : MonoBehaviour
             {
                 isPlayerAlive = false;
                 tails.Clear();
+                PowerupManager.Sp.Clear();
+                FoodManager.apple.Clear();
+                PowerupManager.Li.Clear();
                 SceneManager.LoadScene("GameOver");
               
 
